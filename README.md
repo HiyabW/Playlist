@@ -41,7 +41,7 @@ The following functions are needed for the project to function accordingly:
     int size()
     
 ## Playlist.cpp
-Contains all of the project's function definitions
+Contains all of the project's function definitions so the functions operate appropriately
 
 ## Main.cpp
 Contains the main program users will interact with. Prints the menu and loops until q (quit) is entered.
