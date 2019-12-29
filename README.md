@@ -12,10 +12,34 @@ Option (o): Output full playlist
 Option (q): Quit
 
 ## Playlist.h
-Contains all of the project's function declarations
+The PlaylistNode class and Playlist class are contained in this file. Playlist.h contains all of the project's function declarations
 
 The following functions are needed for the project to function accordingly:
 
+For the PlaylistNode class...
+    PlaylistNode()
+    PlaylistNode(string, string, string, int)
+    void InsertAfter(PlaylistNode*)
+    void SetNext(PlaylistNode*)
+    string GetID()
+    string GetSongName()
+    string GetArtistName()
+    int GetSongLength()
+    PlaylistNode* GetNext()
+    void PrintPlaylistNode()
+
+
+For the Playlist class...
+    Playlist()
+    void AddSong(string, string , string, int)
+    void RemoveSong(string )
+    bool ChangePosition(int, int)
+    void SongsByArtist(string)
+    int TotalTime()
+    void PrintList()
+    bool isEmpty()
+    int size()
+    
 ## Playlist.cpp
 Contains all of the project's function definitions
 
