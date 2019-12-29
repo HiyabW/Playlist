@@ -17,16 +17,16 @@ The PlaylistNode class and Playlist class are contained in this file. Playlist.h
 The following functions are needed for the project to function accordingly:
 
 For the PlaylistNode class...
-PlaylistNode()
-PlaylistNode(string, string, string, int)
-void InsertAfter(PlaylistNode*)
-    void SetNext(PlaylistNode*)
-    string GetID()
-    string GetSongName()
-    string GetArtistName()
-    int GetSongLength()
-    PlaylistNode* GetNext()
-    void PrintPlaylistNode()
+    PlaylistNode(). 
+    PlaylistNode(string, string, string, int). 
+    void InsertAfter(PlaylistNode*). 
+    void SetNext(PlaylistNode*). 
+    string GetID(). 
+    string GetSongName(). 
+    string GetArtistName(). 
+    int GetSongLength(). 
+    PlaylistNode* GetNext(). 
+    void PrintPlaylistNode(). 
 
 
 For the Playlist class...
