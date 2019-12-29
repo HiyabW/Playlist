@@ -16,7 +16,7 @@ The PlaylistNode class and Playlist class are contained in this file. Playlist.h
 
 The following functions are needed for the project to function accordingly:
 
-### For the PlaylistNode class...<br/>
+For the PlaylistNode class...<br/>
     PlaylistNode()<br/>
     PlaylistNode(string, string, string, int)<br/>
     void InsertAfter(PlaylistNode*)<br/>
@@ -29,7 +29,7 @@ The following functions are needed for the project to function accordingly:
     void PrintPlaylistNode()<br/>
 
 
-### For the Playlist class...<br/>
+For the Playlist class...<br/>
     Playlist()<br/>
     void AddSong(string, string , string, int)<br/>
     void RemoveSong(string )<br/>
