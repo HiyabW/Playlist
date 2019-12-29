@@ -16,29 +16,29 @@ The PlaylistNode class and Playlist class are contained in this file. Playlist.h
 
 The following functions are needed for the project to function accordingly:
 
-For the PlaylistNode class...<br/>
-    PlaylistNode()<br/>
-    PlaylistNode(string, string, string, int)<br/>
-    void InsertAfter(PlaylistNode*)<br/>
-    void SetNext(PlaylistNode*)<br/>
-    string GetID()<br/>
-    string GetSongName()<br/>
-    string GetArtistName()<br/>
-    int GetSongLength()<br/>
-    PlaylistNode* GetNext()<br/>
-    void PrintPlaylistNode()<br/>
+### For the PlaylistNode class...<br/>
+    PlaylistNode()
+    PlaylistNode(string, string, string, int)
+    void InsertAfter(PlaylistNode*)
+    void SetNext(PlaylistNode*)
+    string GetID()
+    string GetSongName()
+    string GetArtistName()
+    int GetSongLength()
+    PlaylistNode* GetNext()
+    void PrintPlaylistNode()
 
 
-For the Playlist class...<br/>
-    Playlist()<br/>
-    void AddSong(string, string , string, int)<br/>
-    void RemoveSong(string )<br/>
-    bool ChangePosition(int, int)<br/>
-    void SongsByArtist(string)<br/>
-    int TotalTime()<br/>
-    void PrintList()<br/>
-    bool isEmpty()<br/>
-    int size()<br/>
+### For the Playlist class...
+    Playlist()
+    void AddSong(string, string , string, int)
+    void RemoveSong(string )
+    bool ChangePosition(int, int)
+    void SongsByArtist(string)
+    int TotalTime()
+    void PrintList()
+    bool isEmpty()
+    int size()
     
 ## Playlist.cpp
 Contains all of the project's function definitions
